@@ -1,4 +1,0 @@
-eureka:
-  client:
-    service-url:
-        defaultZone: http://eureka-server-master:9000/eureka/
