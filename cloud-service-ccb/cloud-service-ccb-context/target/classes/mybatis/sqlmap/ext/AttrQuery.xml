@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.ccb.context.domain.query.AttrQuery" >
+  <resultMap id="BaseResultMap" type="com.cloud.ccb.context.domain.model.OperatorAttr" >
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sort" property="sort" jdbcType="SMALLINT" />
+  </resultMap>
+
+
+  <select id="getAppAttrByAppId" parameterType="java.lang.String" resultMap="BaseResultMap" >
+    select * from t_app_attr where app_id = #{appId}
+  </select>
+  <select id="getUserAttrByOperatorId" parameterType="java.lang.String" resultMap="BaseResultMap" >
+    select * from t_operator_attr where operator_id = #{operatorId}
+  </select>
+
+  <delete id="deleteUserAttrByOperatorId" parameterType="java.lang.String">
+    delete from t_operator_attr where  operator_id = #{operatorId}
+  </delete>
+
+</mapper>

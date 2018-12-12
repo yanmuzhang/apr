@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.ccb.context.domain.mappers.PrivilegeDmoMapper" >
+  <resultMap id="BaseResultMap" type="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmo" >
+    <result column="master_type" property="masterType" jdbcType="VARCHAR" />
+    <result column="master_id" property="masterId" jdbcType="VARCHAR" />
+    <result column="access_type" property="accessType" jdbcType="VARCHAR" />
+    <result column="access_id" property="accessId" jdbcType="VARCHAR" />
+    <result column="is_operatation" property="isOperatation" jdbcType="BIT" />
+    <result column="app_id" property="appId" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    master_type, master_id, access_type, access_id, is_operatation, app_id
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_privilege
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmoExample" >
+    delete from t_privilege
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmo" >
+    insert into t_privilege (master_type, master_id, access_type, 
+      access_id, is_operatation, app_id
+      )
+    values (#{masterType,jdbcType=VARCHAR}, #{masterId,jdbcType=VARCHAR}, #{accessType,jdbcType=VARCHAR}, 
+      #{accessId,jdbcType=VARCHAR}, #{isOperatation,jdbcType=BIT}, #{appId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmo" >
+    insert into t_privilege
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="masterType != null" >
+        master_type,
+      </if>
+      <if test="masterId != null" >
+        master_id,
+      </if>
+      <if test="accessType != null" >
+        access_type,
+      </if>
+      <if test="accessId != null" >
+        access_id,
+      </if>
+      <if test="isOperatation != null" >
+        is_operatation,
+      </if>
+      <if test="appId != null" >
+        app_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="masterType != null" >
+        #{masterType,jdbcType=VARCHAR},
+      </if>
+      <if test="masterId != null" >
+        #{masterId,jdbcType=VARCHAR},
+      </if>
+      <if test="accessType != null" >
+        #{accessType,jdbcType=VARCHAR},
+      </if>
+      <if test="accessId != null" >
+        #{accessId,jdbcType=VARCHAR},
+      </if>
+      <if test="isOperatation != null" >
+        #{isOperatation,jdbcType=BIT},
+      </if>
+      <if test="appId != null" >
+        #{appId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.cloud.ccb.context.domain.mappers.dmo.PrivilegeDmoExample" resultType="java.lang.Integer" >
+    select count(*) from t_privilege
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update t_privilege
+    <set >
+      <if test="record.masterType != null" >
+        master_type = #{record.masterType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.masterId != null" >
+        master_id = #{record.masterId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.accessType != null" >
+        access_type = #{record.accessType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.accessId != null" >
+        access_id = #{record.accessId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.isOperatation != null" >
+        is_operatation = #{record.isOperatation,jdbcType=BIT},
+      </if>
+      <if test="record.appId != null" >
+        app_id = #{record.appId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update t_privilege
+    set master_type = #{record.masterType,jdbcType=VARCHAR},
+      master_id = #{record.masterId,jdbcType=VARCHAR},
+      access_type = #{record.accessType,jdbcType=VARCHAR},
+      access_id = #{record.accessId,jdbcType=VARCHAR},
+      is_operatation = #{record.isOperatation,jdbcType=BIT},
+      app_id = #{record.appId,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

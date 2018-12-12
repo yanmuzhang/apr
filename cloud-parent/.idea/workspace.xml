@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd8b7df8-0b7b-466b-97fb-1eaf14e5fca2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-core-ddd/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-core-ddd-spring-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-ddd-simple/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-system/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-blog/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-context/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-system/cloud-service-system-context/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-api/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-system/cloud-service-system-api/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-user/cloud-service-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-user/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-user/cloud-service-user-context/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-webapi/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-ccb/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/target/" />
+    <ignored path="$PROJECT_DIR$/../cloud-dashboard-zipkin/target/" />
+    <ignored path="D:/work/microservice-im/context/target/" />
+    <ignored path="D:/work/microservice-im/target/" />
+    <ignored path="D:/work/microservice-im/event/target/" />
+    <ignored path="D:/work/microservice-im/feign/target/" />
+    <ignored path="$PROJECT_DIR$/../liberfree-common/target/" />
+    <ignored path="$PROJECT_DIR$/../liberfree-ddd-spring-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../liberfree-ddd/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OpenController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/OpenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="67" column="79" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Creating a new SqlSession</find>
+      <find>BusinessExecption</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\sources\cloud\cloud-service-ccb</dir>
+      <dir>D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/work/microservice-im" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/OperatorRepostory.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/MenuDto.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/service/MenuServiceTest.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/service/RoleServiceTest.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/controller/OpenController.java" />
+        <option value="$PROJECT_DIR$/../cloud-dashboard-zipkin/src/main/java/com/cloud/zipkin/Application.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/Application.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OpenApiClient.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/OperatorService.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/OpenController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/configration/Swagger2Configration.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/Swagger2Configration.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/Application.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/config/Swagger2Configration.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/config/Version.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/auth/AuthHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/auth/AuthHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/config/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/VersionConfiguration.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/CheckedPhoneDto.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/OperatorAddDto.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/CertificationDto.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/LoginDto.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/OperatorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/service/OperatorServiceTest.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/GlobalControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignHeaderConfiguration.java" />
+        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/BusinessExecption.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/FeignErrorDecoder.java" />
+        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/CustomException.java" />
+        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/BusinessException.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/FeignErrorDecoder.java" />
+        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/ApiErrorResponse.java" />
+        <option value="$PROJECT_DIR$/../liberfree-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../liberfree-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/GlobalControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/GlobalControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/DeAspect.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OpenApiController.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/OpenController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="124" />
+    <option name="y" value="61" />
+    <option name="width" value="1393" />
+    <option name="height" value="818" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="cn.liberfree.common.execption.BusinessExecption&#9;PSI&#9;JAVA://cn.liberfree.common.execption.BusinessExecption&#10;Atomic&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicBoolean&#10;PlatformT&#9;PSI&#9;JAVA://org.springframework.transaction.PlatformTransactionManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liberfree-ddd-spring-starter/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cloud.ccb.context.service" />
+      <recent name="com.cloud.ccb.context.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context\configuration" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis\generator" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.liberfree.common" />
+      <recent name="com.cloud.ccb.context" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.ccb.context.configuration.exception" />
+      <recent name="com.cloud.webapi.context.configration" />
+      <recent name="com.cloud.webapi.auth" />
+      <recent name="com.cloud.webapi.web.v1.config" />
+      <recent name="com.cloud.webapi.configration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sources\cloud\cloud-webapi\src\main\java\com\cloud\webapi\context\configration\exception" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context\configuration\exception" />
+      <recent name="D:\sources\cloud\cloud-dashboard-zipkin\src\main\resources" />
+      <recent name="D:\sources\cloud\cloud-webapi\src\main\resources" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis\sqlmap\ext" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebapiApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration name="AppServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-ccb-context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.ccb.context.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cloud.ccb.context.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.ccb.context.service.AppServiceTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OperatorServiceTest.getUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-ccb-context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.ccb.context.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cloud.ccb.context.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.ccb.context.service.OperatorServiceTest" />
+      <option name="METHOD_NAME" value="getUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OperatorServiceTest.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-ccb-context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.ccb.context.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cloud.ccb.context.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.ccb.context.service.OperatorServiceTest" />
+      <option name="METHOD_NAME" value="getUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OperatorServiceTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-ccb-context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.ccb.context.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cloud.ccb.context.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.ccb.context.service.OperatorServiceTest" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cloud-ddd-simple" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="cloud-service-ccb [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../cloud-service-ccb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+    </configuration>
+    <configuration name="CcbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="cloud-service-ccb-context" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.ccb.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.ccb.context.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.config.ConfigApplication" />
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.eureka.server.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="WebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-webapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.webapi.context.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-dashboard-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.zipkin.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="cloud-ddd-simple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.cloud-service-ccb [install]" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.WebapiApplication" />
+      <item itemvalue="Spring Boot.ZipkinApplication" />
+      <item itemvalue="JUnit.OperatorServiceTest.getUserInfo" />
+      <item itemvalue="JUnit.OperatorServiceTest.updateUser" />
+      <item itemvalue="JUnit.OperatorServiceTest.getUserList" />
+      <item itemvalue="JUnit.AppServiceTest.list" />
+      <item itemvalue="Spring Boot.CcbApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CcbApplication" />
+        <item itemvalue="JUnit.OperatorServiceTest.getUserInfo" />
+        <item itemvalue="JUnit.OperatorServiceTest.updateUser" />
+        <item itemvalue="JUnit.AppServiceTest.list" />
+        <item itemvalue="JUnit.OperatorServiceTest.getUserList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd8b7df8-0b7b-466b-97fb-1eaf14e5fca2" name="Default" comment="" />
+      <created>1541660632714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541660632714</updated>
+      <workItem from="1541660634940" duration="2784000" />
+      <workItem from="1541730932160" duration="608000" />
+      <workItem from="1542014278450" duration="2160000" />
+      <workItem from="1542072119677" duration="37667000" />
+      <workItem from="1542244976069" duration="47476000" />
+      <workItem from="1542590684367" duration="31944000" />
+      <workItem from="1543197813892" duration="784000" />
+      <workItem from="1543199428506" duration="5558000" />
+      <workItem from="1544247613186" duration="6691000" />
+      <workItem from="1544423498129" duration="3884000" />
+      <workItem from="1544493035889" duration="24297000" />
+      <workItem from="1544531875852" duration="5317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OperatorServiceTest_getUserList - 2018.12.11 at 11h 07m 38s.xml">
+      <configuration name="OperatorServiceTest.getUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 15m 33s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 17m 04s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppServiceTest_list - 2018.12.11 at 11h 18m 33s.xml">
+      <configuration name="AppServiceTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_updateUser - 2018.12.11 at 11h 21m 21s.xml">
+      <configuration name="OperatorServiceTest.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 21m 36s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 37m 10s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 38m 47s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_updateUser - 2018.12.11 at 11h 39m 07s.xml">
+      <configuration name="OperatorServiceTest.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorServiceTest_getUserInfo - 2018.12.11 at 11h 39m 42s.xml">
+      <configuration name="OperatorServiceTest.getUserInfo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="169170000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13099042" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35869566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.35543478" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32934782" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36956522" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17678382" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="71" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>System.out.println(body);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>body</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/org/omg/CORBA/SystemException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="355" column="4" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/ContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/CloudConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/GlobalControllerExceptionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/GlobalControllerExceptionHandler.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1-sources.jar!/feign/SynchronousMethodHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="147" column="7" lean-forward="true" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/apache-maven-3.5.4/repository/cn/liberfree/de/de-core/1.0-SNAPSHOT/de-core-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1033" />
+      </provider>
+    </entry>
+    <entry file="file://D:/apache-maven-3.5.4/repository/cn/liberfree/de/de-starter/1.0-SNAPSHOT/de-starter-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignHeaderConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/VersionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/ApiErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/ApiErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/cn/liberfree/liberfree-common/1.0-SNAPSHOT/liberfree-common-1.0-SNAPSHOT.jar!/cn/liberfree/common/execption/BusinessExecption.class" />
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="44" column="56" lean-forward="true" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/FeignErrorDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/filter/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/OrganizationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/cn/liberfree/liberfree-common/1.1-SNAPSHOT/liberfree-common-1.1-SNAPSHOT.jar!/cn/liberfree/common/PageResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/repository/cn/liberfree/liberfree-common/1.1-SNAPSHOT/liberfree-common-1.1-SNAPSHOT.jar!/cn/liberfree/common/execption/BusinessException.class" />
+    <entry file="file://$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/TransactionalCommit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/EnableDe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/DeConfiguretion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/LoginDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/AppServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/OperatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="192" column="100" lean-forward="true" selection-start-line="192" selection-start-column="100" selection-end-line="192" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/service/OperatorServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/DeAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/GlobalControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/PeopleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OpenApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/GlobalControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-866">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/FeignErrorDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/OpenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="67" column="79" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|cloud-service-ccb-context</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

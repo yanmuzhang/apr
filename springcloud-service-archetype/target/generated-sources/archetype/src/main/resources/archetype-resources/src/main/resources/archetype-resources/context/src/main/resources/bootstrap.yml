@@ -1,0 +1,36 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.2.250:9001
+      name: common,ad
+      profile: dev
+
+---
+
+spring:
+  cloud:
+    config:
+      uri: http://192.168.2.251:9001
+      name: common,ad
+      profile: test
+  profiles: test
+
+---
+
+spring:
+  profiles: uat
+  cloud:
+    config:
+      uri: http://config-server:9001
+      name: common,ad
+      profile: uat
+
+---
+
+spring:
+  profiles: prod
+  cloud:
+    config:
+      uri: http://config-server:9001
+      name: common,ad
+      profile: prod

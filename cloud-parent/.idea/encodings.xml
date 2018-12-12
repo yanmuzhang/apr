@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-dashboard-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-ddd-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-blog" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-ccb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-system/cloud-service-system-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-system/cloud-service-system-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-user/cloud-service-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-service-user/cloud-service-user-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cloud-webapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../liberfree-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../liberfree-ddd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter" charset="UTF-8" />
+    <file url="file://D:/work/microservice-im" charset="UTF-8" />
+    <file url="file://D:/work/microservice-im/context" charset="UTF-8" />
+    <file url="file://D:/work/microservice-im/event" charset="UTF-8" />
+    <file url="file://D:/work/microservice-im/feign" charset="UTF-8" />
+  </component>
+</project>

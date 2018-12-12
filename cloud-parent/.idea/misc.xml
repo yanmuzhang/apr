@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-dashboard-zipkin/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-blog/cloud-service-blog-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-system/cloud-service-system-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-system/cloud-service-system-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-system/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-user/cloud-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-user/cloud-service-user-context/pom.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-user/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

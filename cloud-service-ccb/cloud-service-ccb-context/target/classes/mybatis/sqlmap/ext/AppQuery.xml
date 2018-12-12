@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cloud.ccb.context.domain.query.AppQuery" >
+
+
+  <select id="list" resultType="java.lang.String" parameterType="java.lang.String">
+    select id from t_app
+    <if test="orgId != null and orgId != ''">
+      where organization_id = #{orgId}
+    </if>
+  </select>
+
+</mapper>

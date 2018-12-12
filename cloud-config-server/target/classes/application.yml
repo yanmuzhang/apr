@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+managerment:
+  context-path: /admin
+
+spring:
+  application:
+    name: config-server
+
+---
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jaguar-zc/spring-cloud-config.git
+          search-paths: respo

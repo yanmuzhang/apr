@@ -1,0 +1,8 @@
+server:
+  port: xxxx
+spring:
+  application:
+    name: ${artifactId}
+  profiles:
+    active: dev
+    include: "base"

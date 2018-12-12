@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-webapi/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-system/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core-ddd-spring-starter/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
