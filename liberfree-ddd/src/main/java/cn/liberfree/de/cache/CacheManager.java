@@ -37,6 +37,11 @@ public final class CacheManager {
     public static void set(Serializable key,Object object){
         cache.put(CAHCE_NAME + key,object);
     }
+    public static void remove(Serializable key){
+        if(containsKey(key)){
+            cache.remove(CAHCE_NAME + key);
+        }
+    }
 
 
 }

@@ -1,5 +1,6 @@
 package com.cloud.ccb.context.domain.resolver;
 
+import com.cloud.ccb.api.dto.AppAttrDto;
 import com.cloud.ccb.context.domain.mappers.dmo.AppAttrDmo;
 import com.cloud.ccb.context.domain.mappers.dmo.AppDmo;
 import com.cloud.ccb.context.domain.mappers.dmo.PeopleDmo;
@@ -24,6 +25,14 @@ public class AppMappingBuilder extends BeanMappingBuilder {
 
         mapping(type(AppAttr.class).accessible(true), AppAttrDmo.class)
                 .fields("appId", "appId")
+                .fields("name", "name")
+                .fields("required", "required")
+                .fields("defaultValue", "defaultValue")
+                .fields("sort", "sort")
+                .fields("type", "type");
+
+
+        mapping(type(AppAttr.class).accessible(true), AppAttrDto.class)
                 .fields("name", "name")
                 .fields("required", "required")
                 .fields("defaultValue", "defaultValue")

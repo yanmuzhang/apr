@@ -1,9 +1,9 @@
 package com.cloud.ccb.context.controller;
 
 import cn.liberfree.common.PageResult;
-import com.cloud.ccb.api.OpenApiClient;
+import com.cloud.ccb.api.OperatorClient;
 import com.cloud.ccb.api.dto.*;
-import com.cloud.ccb.context.service.OperatorService;
+import com.cloud.ccb.context.domain.service.OperatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  * @time: 2018-11-15 11:31
  **/
 @RestController
-public class OpenApiController extends BaseController implements OpenApiClient {
+public class OperatorController extends BaseController implements OperatorClient {
 
 
     @Autowired

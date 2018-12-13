@@ -1,7 +1,7 @@
 package com.cloud.webapi.web.v1;
 
 import cn.liberfree.common.PageResult;
-import com.cloud.ccb.api.OpenApiClient;
+import com.cloud.ccb.api.OperatorClient;
 import com.cloud.ccb.api.dto.*;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,11 +12,11 @@ import javax.annotation.Resource;
  * @time: 2018-07-27 16:52
  **/
 @RestController
-@RequestMapping("/open")
-public class OpenController {
+@RequestMapping("/operator")
+public class OperatorController {
 
     @Resource
-    private OpenApiClient userClient;
+    private OperatorClient userClient;
 
     /**
      * 添加用户

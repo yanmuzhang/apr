@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/liberfree-common.iml" filepath="$PROJECT_DIR$/liberfree-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liberfree-common.iml" filepath="$PROJECT_DIR$/liberfree-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../liberfree-ddd/liberfree-ddd.iml" filepath="$PROJECT_DIR$/../liberfree-ddd/liberfree-ddd.iml" />
       <module fileurl="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/liberfree-ddd-spring-starter.iml" filepath="$PROJECT_DIR$/../liberfree-ddd-spring-starter/liberfree-ddd-spring-starter.iml" />
     </modules>

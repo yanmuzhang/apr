@@ -82,12 +82,13 @@ public class AppRepository implements IRepository<App,String> {
         AppAttrDmoExample appAttrDmoExample = new AppAttrDmoExample();
         appAttrDmoExample.createCriteria().andAppIdEqualTo(app.getId());
         appAttrDmoMapper.deleteByExample(appAttrDmoExample);
-        appAttrs.stream().map(i -> {
-            AppAttrDmo appAttr = mapper.map(i,AppAttrDmo.class);
-            appAttr.setAppId(app.getId());
-            return  appAttr;
-        }).forEach(i->appAttrDmoMapper.insert(i));
-
+        if(appAttrs != null){
+            appAttrs.stream().map(i -> {
+                AppAttrDmo appAttr = mapper.map(i,AppAttrDmo.class);
+                appAttr.setAppId(app.getId());
+                return  appAttr;
+            }).forEach(i->appAttrDmoMapper.insert(i));
+        }
     }
 
     @Override

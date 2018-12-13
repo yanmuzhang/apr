@@ -1,9 +1,9 @@
-package com.cloud.ccb.context.service.impl;
+package com.cloud.ccb.context.domain.service.impl;
 
 import cn.liberfree.de.loader.EntityLoader;
 import com.cloud.ccb.api.dto.RoleDto;
 import com.cloud.ccb.context.domain.model.Role;
-import com.cloud.ccb.context.service.RoleService;
+import com.cloud.ccb.context.domain.service.RoleService;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

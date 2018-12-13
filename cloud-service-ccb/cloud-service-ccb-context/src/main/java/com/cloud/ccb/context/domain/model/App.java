@@ -33,6 +33,13 @@ public class App extends EntityObject<String> {
         this.appAttrs = appAttrs;
     }
 
+    public void edit(String name,String organizationId,Set<AppAttr> appAttrs){
+        this.name = name;
+        this.secret = IdentifyUtils.uuid();;
+        this.organizationId = organizationId;
+        this.appAttrs = appAttrs;
+    }
+
 
     /**
      * 刷新 secret

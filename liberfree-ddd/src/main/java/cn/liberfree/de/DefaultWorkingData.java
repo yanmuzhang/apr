@@ -1,5 +1,6 @@
 package cn.liberfree.de;
 
+import cn.liberfree.de.cache.CacheManager;
 import cn.liberfree.de.config.ContextConfig;
 import cn.liberfree.de.core.SystemExecption;
 import cn.liberfree.de.core.Operator;
@@ -10,6 +11,7 @@ import cn.liberfree.de.repository.RepositoryLink;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -67,8 +69,10 @@ public class DefaultWorkingData implements WorkingData {
             IRepository repository = contextConfig.getIRepository(annotation.value());
             if(value == Operator.SAVE){
                 repository.save(key);
+                CacheManager.remove((Serializable)key.getId());
             }else if(value == Operator.REMOVE){
                 repository.delete(key);
+                CacheManager.remove((Serializable)key.getId());
             }
         }
     }
@@ -77,15 +81,12 @@ public class DefaultWorkingData implements WorkingData {
     @Override
     public void commit() {
         try {
-            logger.info("提交仓储开始");
             entityCommit();
-            logger.info("提交仓储成功");
         } catch (Exception e) {
             this.getEntityMap().clear();
             throw new SystemExecption("提交仓储失败 ",e);
         }finally {
             this.getEntityMap().clear();
-            logger.info("提交仓储结束");
         }
     }
 

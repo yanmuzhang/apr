@@ -1,6 +1,6 @@
-package com.cloud.ccb.context.service.impl;
+package com.cloud.ccb.context.domain.service.impl;
 
-import com.cloud.ccb.context.service.PeopleServcie;
+import com.cloud.ccb.context.domain.service.PeopleServcie;
 import org.springframework.stereotype.Service;
 
 /**

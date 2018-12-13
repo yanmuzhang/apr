@@ -10,28 +10,27 @@ import org.springframework.web.bind.annotation.*;
  * @time: 2018-11-15 11:30
  **/
 @FeignClient(name = "cloud-service-ccb-context",configuration = FeignConfiguration.class)
-@RequestMapping(name = "/openApi")
-public interface OpenApiClient {
+public interface OperatorClient {
 
     /**
      * 添加用户
      * @param userAddDto
      */
-    @PostMapping(value = "/addOperator")
+    @PostMapping(value = "/operator/addOperator")
     void addOperator(@RequestBody OperatorAddDto userAddDto);
 
     /**
      * 修改用户
      * @param userDto
      */
-    @PostMapping(value = "/updateOperator")
+    @PostMapping(value = "/operator/updateOperator")
     void updateOperator(@RequestBody OperatorEditDto userDto);
 
     /**
      * 实名认证
      * @param certificationDto
      */
-    @PostMapping(value = "/certificationOperator")
+    @PostMapping(value = "/operator/certificationOperator")
     void certificationOperator(@RequestBody CertificationDto certificationDto);
 
 
@@ -40,7 +39,7 @@ public interface OpenApiClient {
      * @param openId
      * @return
      */
-    @GetMapping(value = "/getOperatorInfo")
+    @GetMapping(value = "/operator/getOperatorInfo")
     OperatorInfoDto getOperatorInfo(@RequestParam("openId") String openId);
 
 
@@ -50,7 +49,7 @@ public interface OpenApiClient {
      * @param pageSize
      * @return
      */
-    @GetMapping(value = "/getOperatorList")
+    @GetMapping(value = "/operator/getOperatorList")
     PageResult<OperatorInfoDto> getOperatorList(
                                                 @RequestParam(name = "pageIndex",defaultValue = "1") int pageIndex,
                                                 @RequestParam(name = "pageSize",defaultValue = "10") int pageSize);
@@ -61,7 +60,7 @@ public interface OpenApiClient {
      * @param loginDto
      * @return
      */
-    @PostMapping(value = "/login")
+    @PostMapping(value = "/operator/login")
     OperatorInfoDto login(@RequestBody LoginDto loginDto);
 
     /**
@@ -69,7 +68,7 @@ public interface OpenApiClient {
      * @param phone
      * @return
      */
-    @GetMapping(value = "/checkedPhone")
+    @GetMapping(value = "/operator/checkedPhone")
     Boolean checkedPhone(@RequestParam("phone") String phone);
 
 

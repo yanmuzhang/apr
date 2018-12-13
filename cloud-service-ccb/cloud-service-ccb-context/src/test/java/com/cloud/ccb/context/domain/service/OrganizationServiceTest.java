@@ -1,4 +1,4 @@
-package com.cloud.ccb.context.service;
+package com.cloud.ccb.context.domain.service;
 
 import cn.liberfree.common.JsonUtils;
 import com.cloud.ccb.api.dto.OrganizationDto;

@@ -16,6 +16,7 @@ import lombok.Setter;
 @RepositoryLink(OrganizationRepository.class)
 public class Organization extends EntityObject<String> {
     private static final long serialVersionUID = 8147610701092383680L;
+    // 个体户 私营 国企  外企
     public enum OrganizationType {
         SE, PE, SOE, FIE
     }

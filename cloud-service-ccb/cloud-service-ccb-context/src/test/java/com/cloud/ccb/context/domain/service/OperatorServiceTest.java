@@ -1,4 +1,4 @@
-package com.cloud.ccb.context.service;
+package com.cloud.ccb.context.domain.service;
 
 import cn.liberfree.common.JsonUtils;
 import cn.liberfree.common.PageResult;
@@ -32,18 +32,23 @@ public class OperatorServiceTest extends BaseServiceTest{
 
     @Test
     public void addUser() {
-        OperatorAddDto user = new OperatorAddDto();
-//        user.setAttrSet();
-        user.setAppId(appId);
-        user.setPhone("13800001111");
-        Set<OperatorAttrDto> userAttrDtos = new HashSet<>();
-        OperatorAttrDto userAttrDto = new OperatorAttrDto();
-        userAttrDto.setName("nickName");
-        userAttrDto.setSort(1);
-        userAttrDto.setValue("Forest");
-        userAttrDtos.add(userAttrDto);
-        user.setAttrSet(userAttrDtos);
-        userService.addOperator(user);
+        for (int i = 202; i > 101; i--) {
+            OperatorAddDto user = new OperatorAddDto();
+            user.setAppId(appId);
+            user.setPhone("13000000"+i);
+            Set<OperatorAttrDto> userAttrDtos = new HashSet<>();
+            OperatorAttrDto userAttrDto = new OperatorAttrDto();
+            userAttrDto.setName("nickName");
+            userAttrDto.setSort(1);
+            userAttrDto.setValue("Sys"+i);
+            userAttrDtos.add(userAttrDto);
+            userAttrDtos.add(OperatorAttrDto.builder().name("sex").sort(1).value(i%2==0?"MAN":"WOMAN").build());
+            userAttrDtos.add(OperatorAttrDto.builder().name("icon").sort(1).value("https://file.ccuol.cn/%E5%9B%BE%E7%89%87.png").build());
+            userAttrDtos.add(OperatorAttrDto.builder().name("age").sort(1).value(String.valueOf(i)).build());
+
+            user.setAttrSet(userAttrDtos);
+            userService.addOperator(user);
+        }
     }
 
     @Test

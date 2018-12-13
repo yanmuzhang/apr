@@ -33,6 +33,19 @@ public class OrganizationMappingBuilder extends BeanMappingBuilder {
                 .fields("legalPersonIdFront", "legalPersonIdFront")
                 .fields("legalPersonIdBack", "legalPersonIdBack");
 
-
+        mapping(type(Organization.class).accessible(true), OrganizationDto.class)
+                .fields("name", "name")
+                .fields("organizationType", "organizationType")
+                .fields("registerNumber", "registerNumber")
+                .fields("zipCode", "zipCode")
+                .fields("address", "address")
+                .fields("organizationCode", "organizationCode")
+                .fields("businessScope", "businessScope")
+                .fields("businessLicense", "businessLicense")
+                .fields("licenseType", "licenseType")
+                .fields("legalPersonName", "legalPersonName")
+                .fields("legalPersonIdNumber", "legalPersonIdNumber")
+                .fields("legalPersonIdFront", "legalPersonIdFront")
+                .fields("legalPersonIdBack", "legalPersonIdBack");
     }
 }

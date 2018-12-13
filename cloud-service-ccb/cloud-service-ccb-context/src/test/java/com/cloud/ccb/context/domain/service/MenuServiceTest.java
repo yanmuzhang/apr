@@ -1,4 +1,4 @@
-package com.cloud.ccb.context.service;
+package com.cloud.ccb.context.domain.service;
 
 import com.cloud.ccb.api.dto.ButtonDto;
 import com.cloud.ccb.api.dto.MenuDto;

@@ -1,8 +1,12 @@
 package com.cloud.ccb.context.domain.query;
 
-import java.util.List;
+import cn.liberfree.common.Page;
+import cn.liberfree.mybatis.PageParames;
+import org.apache.ibatis.annotations.Param;
 
 public interface AppQuery {
 
-    List<String> list(String orgId);
+    Integer isExistence(@Param("name") String name,@Param("excludeId") String excludeId);
+
+    Page<String> getAppList(@Param("orgId") String orgId, @Param("name") String name, PageParames pageParames);
 }

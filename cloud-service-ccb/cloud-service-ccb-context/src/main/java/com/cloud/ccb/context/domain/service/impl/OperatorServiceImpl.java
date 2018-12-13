@@ -1,4 +1,4 @@
-package com.cloud.ccb.context.service.impl;
+package com.cloud.ccb.context.domain.service.impl;
 
 import cn.liberfree.common.Page;
 import cn.liberfree.common.PageResult;
@@ -10,7 +10,7 @@ import com.cloud.ccb.context.domain.mappers.dmo.LoginInfoDmo;
 import com.cloud.ccb.context.domain.model.*;
 import com.cloud.ccb.context.domain.query.LoginInfoQuery;
 import com.cloud.ccb.context.domain.query.OperatorQuery;
-import com.cloud.ccb.context.service.OperatorService;
+import com.cloud.ccb.context.domain.service.OperatorService;
 import org.apache.commons.lang3.StringUtils;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
