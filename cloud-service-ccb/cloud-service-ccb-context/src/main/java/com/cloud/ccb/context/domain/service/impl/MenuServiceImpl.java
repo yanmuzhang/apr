@@ -1,15 +1,21 @@
 package com.cloud.ccb.context.domain.service.impl;
 
+import cn.liberfree.common.Page;
+import cn.liberfree.common.PageResult;
 import cn.liberfree.de.loader.EntityLoader;
+import cn.liberfree.mybatis.PageParames;
 import com.cloud.ccb.api.dto.ButtonDto;
 import com.cloud.ccb.api.dto.MenuDto;
+import com.cloud.ccb.api.dto.RoleDto;
 import com.cloud.ccb.context.domain.model.Button;
 import com.cloud.ccb.context.domain.model.Menu;
+import com.cloud.ccb.context.domain.query.MenuQuery;
 import com.cloud.ccb.context.domain.service.MenuService;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -27,6 +33,9 @@ public class MenuServiceImpl implements MenuService {
     @Autowired
     private DozerBeanMapper mapper;
 
+    @Autowired
+    private MenuQuery menuQuery;
+
 
 
     @Override
@@ -37,7 +46,7 @@ public class MenuServiceImpl implements MenuService {
         if(buttonSet != null){
             collect = buttonSet.stream().map(item -> mapper.map(item, Button.class)).collect(Collectors.toSet());
         }
-        menu.init(menuDto.getName(),menuDto.getUrl(),menuDto.getIcon(),menuDto.getIsVisible(),menuDto.getIsLeaf(),menuDto.getMenuNo(),menuDto.getModuleId(),menuDto.getParentId(),menuDto.getOrderList(),collect);
+        menu.init(menuDto.getName(),menuDto.getUrl(),menuDto.getIcon(),menuDto.getIsVisible(),menuDto.getMenuNo(),menuDto.getModuleId(),menuDto.getParentId(),menuDto.getOrderList(),collect);
     }
 
     @Override
@@ -48,7 +57,7 @@ public class MenuServiceImpl implements MenuService {
         if(buttonSet != null){
          collect = buttonSet.stream().map(item -> mapper.map(item, Button.class)).collect(Collectors.toSet());
         }
-        menu.edit(menuDto.getName(),menuDto.getUrl(),menuDto.getIcon(),menuDto.getIsVisible(),menuDto.getIsLeaf(),menuDto.getMenuNo(),menuDto.getModuleId(),menuDto.getParentId(),menuDto.getOrderList(),collect);
+        menu.edit(menuDto.getName(),menuDto.getUrl(),menuDto.getIcon(),menuDto.getIsVisible(),menuDto.getMenuNo(),menuDto.getModuleId(),menuDto.getParentId(),menuDto.getOrderList(),collect);
     }
 
     @Override
@@ -60,5 +69,25 @@ public class MenuServiceImpl implements MenuService {
             map.setButtonSet(buttonSet.stream().map(item -> mapper.map(item,ButtonDto.class)).collect(Collectors.toSet()));
         }
         return map;
+    }
+
+    @Override
+    public PageResult<MenuDto> getPageList(String name,Boolean isLeaf, Integer pageIndex, Integer pageSize) {
+        PageParames pageParames = PageParames.create(pageIndex, pageSize);
+        Page<String> page = menuQuery.list(name,isLeaf,pageParames);
+        List<MenuDto> collect = page.getRows().stream().map(id -> getMenu(id)).collect(Collectors.toList());
+
+        Page<MenuDto>  pageList = new Page<>();
+        pageList.setPageIndex(pageIndex);
+        pageList.setPageSize(pageSize);
+        pageList.setTotalCount(page.getTotalCount());
+        pageList.setRows(collect);
+        return PageResult.build(pageList);
+    }
+
+    @Override
+    public void delete(String id) {
+        Menu menu = entityLoader.load(id,Menu.class);
+        menu.delete();
     }
 }

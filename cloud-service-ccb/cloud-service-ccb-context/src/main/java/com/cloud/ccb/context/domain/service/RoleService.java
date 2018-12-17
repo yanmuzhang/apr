@@ -1,5 +1,6 @@
 package com.cloud.ccb.context.domain.service;
 
+import cn.liberfree.common.PageResult;
 import com.cloud.ccb.api.dto.RoleDto;
 
 /**
@@ -8,8 +9,13 @@ import com.cloud.ccb.api.dto.RoleDto;
  **/
 public interface RoleService {
 
+    RoleDto getRole(String id);
+
     void addRole(RoleDto roleDto);
 
     void editRole(RoleDto roleDto);
 
+    PageResult<RoleDto> getPageList(String name,Integer pageIndex,Integer pageSize);
+
+    void delete(String id);
 }

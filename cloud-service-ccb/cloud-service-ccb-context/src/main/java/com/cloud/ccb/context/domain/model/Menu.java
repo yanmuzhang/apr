@@ -6,6 +6,7 @@ import com.cloud.ccb.context.domain.repository.MenuRepostory;
 import com.cloud.ccb.context.domain.repository.RoleRepostory;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Set;
 
@@ -30,12 +31,12 @@ public class Menu extends EntityObject<String> {
     private Set<Button> buttonSet;
 
 
-    public void init(String name, String url, String icon, Boolean visible, Boolean isLeaf, String menuNo, String moduleId, String parentId, Integer orderList, Set<Button> buttonSet) {
+    public void init(String name, String url, String icon, Boolean visible, String menuNo, String moduleId, String parentId, Integer orderList, Set<Button> buttonSet) {
         this.name = name;
         this.url = url;
         this.icon = icon;
         this.isVisible = visible;
-        this.isLeaf = isLeaf;
+        this.isLeaf = !StringUtils.isEmpty(parentId);
         this.menuNo = menuNo;
         this.moduleId = moduleId;
         this.parentId = parentId;
@@ -43,12 +44,12 @@ public class Menu extends EntityObject<String> {
         this.buttonSet = buttonSet;
     }
 
-    public void edit(String name, String url, String icon, Boolean visible, Boolean isLeaf, String menuNo, String moduleId, String parentId, Integer orderList, Set<Button> buttonSet) {
+    public void edit(String name, String url, String icon, Boolean visible,String menuNo, String moduleId, String parentId, Integer orderList, Set<Button> buttonSet) {
         this.name = name;
         this.url = url;
         this.icon = icon;
         this.isVisible = visible;
-        this.isLeaf = isLeaf;
+        this.isLeaf  = !StringUtils.isEmpty(parentId);
         this.menuNo = menuNo;
         this.moduleId = moduleId;
         this.parentId = parentId;

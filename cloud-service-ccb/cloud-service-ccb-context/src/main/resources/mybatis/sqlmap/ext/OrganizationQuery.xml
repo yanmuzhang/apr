@@ -6,7 +6,7 @@
     <select id="list" resultType="java.lang.String"  >
       select id from t_organization where 1=1
       <if test="name != null and name != ''">
-          and `name` = #{name}
+          and name = #{name}
       </if>
   </select>
 

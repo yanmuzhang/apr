@@ -41,45 +41,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/AppController.java">
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="172">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/AppController.java">
+      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="80">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/MenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuRepostory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/MenuRepostory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Button.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
               <folding>
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/AppServiceImpl.java">
+      <file leaf-file-name="MenuClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/MenuClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="269">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +128,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/AppRepository.java">
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+            <state relative-caret-position="236">
+              <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +147,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -126,21 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/OperatorAddDto.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/CertificationDto.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/LoginDto.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/OperatorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/GlobalControllerExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignHeaderConfiguration.java" />
-        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/BusinessExecption.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/FeignErrorDecoder.java" />
-        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/CustomException.java" />
-        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/BusinessException.java" />
-        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/FeignErrorDecoder.java" />
-        <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/execption/ApiErrorResponse.java" />
-        <option value="$PROJECT_DIR$/../liberfree-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../cloud-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/../liberfree-ddd/pom.xml" />
         <option value="$PROJECT_DIR$/../liberfree-common/src/main/java/cn/liberfree/common/exception/BusinessException.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/GlobalControllerExceptionHandler.java" />
@@ -154,7 +185,6 @@
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/OrganizationService.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/service/impl/OrganizationServiceImpl.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/OrganizationQuery.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/OrganizationQuery.xml" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OperatorClient.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OperatorController.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OrganizationClient.java" />
@@ -171,12 +201,28 @@
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/resolver/AppMappingBuilder.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/App.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/AppQuery.java" />
-        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/AppQuery.xml" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/domain/service/AppServiceTest.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/AppClient.java" />
         <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/AppController.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/AppServiceImpl.java" />
         <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/AppRepository.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/RoleQuery.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/RoleClient.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/RoleController.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/RoleQuery.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/AppQuery.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/OrganizationQuery.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/MenuQuery.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/MenuQuery.xml" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/MenuClient.java" />
+        <option value="$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/MenuController.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Menu.java" />
       </list>
     </option>
   </component>
@@ -214,10 +260,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="239" />
-    <option name="y" value="73" />
+    <option name="x" value="-5" />
     <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -227,31 +272,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-webapi" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ccb" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-ccb-context" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,9 +359,21 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context\configuration" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis" />
+      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis\generator" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.liberfree.common" />
       <recent name="com.cloud.ccb.context" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.webapi.web.v1" />
+      <recent name="com.cloud.ccb.context.domain.query" />
+      <recent name="com.cloud.ccb.api" />
+      <recent name="com.cloud.ccb.context.configuration.exception" />
+      <recent name="com.cloud.webapi.context.configration" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis\sqlmap\ext" />
@@ -290,18 +381,6 @@
       <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context\configuration\exception" />
       <recent name="D:\sources\cloud\cloud-dashboard-zipkin\src\main\resources" />
       <recent name="D:\sources\cloud\cloud-webapi\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cloud.webapi.web.v1" />
-      <recent name="com.cloud.ccb.api" />
-      <recent name="com.cloud.ccb.context.domain.query" />
-      <recent name="com.cloud.ccb.context.configuration.exception" />
-      <recent name="com.cloud.webapi.context.configration" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\java\com\cloud\ccb\context\configuration" />
-      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis" />
-      <recent name="D:\sources\cloud\cloud-service-ccb\cloud-service-ccb-context\src\main\resources\mybatis\generator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -724,6 +803,7 @@
       <workItem from="1544493035889" duration="24297000" />
       <workItem from="1544531875852" duration="5562000" />
       <workItem from="1544666123290" duration="16744000" />
+      <workItem from="1545014417955" duration="15774000" />
     </task>
     <servers />
   </component>
@@ -760,7 +840,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186159000" />
+    <option name="totallyTimeSpent" value="201933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +865,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.425" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30652174" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.35543478" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -793,10 +873,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32934782" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36956522" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32934782" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19861555" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -819,7 +899,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="72" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Menu.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/MenuServiceImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="78" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -837,248 +931,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../liberfree-ddd-spring-starter/src/main/java/cn/liberfree/de/spring/DeAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/GlobalControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-866">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/FeignErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/VersionConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/GlobalControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/FeignHeaderConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/context/configration/exception/FeignErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/config/WebMvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/config/Swagger2Configration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/domain/service/OperatorServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../liberfree-ddd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/OperatorEditDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/resolver/OrganizationMappingBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/OperatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/PeopleServcie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/OrganizationDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/OrganizationQuery.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/OrganizationQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/OrganizationDmoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="88" column="23" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/PeopleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OperatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/OrganizationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/OrganizationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OrgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OperatorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/OrganizationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OrganizationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/OperatorAttrDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1090,16 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="21" column="24" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/AppAttrDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,30 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/OperatorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="164" column="42" lean-forward="true" selection-start-line="155" selection-start-column="6" selection-end-line="164" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/AppQuery.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/AppQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1172,17 +990,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/AppClient.java">
+    <entry file="jar://D:/apache-maven-3.5.4/repository/cn/liberfree/liberfree-common/1.1-SNAPSHOT/liberfree-common-1.1-SNAPSHOT.jar!/cn/liberfree/common/AssertUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="53" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="53" />
+        <state relative-caret-position="200">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/AppRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/AppServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/AppAttrDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/AppDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="297">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1191,23 +1043,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="517">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OrgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Privilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/OperatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="164" column="42" lean-forward="true" selection-start-line="155" selection-start-column="6" selection-end-line="164" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/domain/service/RoleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#681#682#0" expanded="true" />
@@ -1219,27 +1105,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/apache-maven-3.5.4/repository/cn/liberfree/liberfree-common/1.1-SNAPSHOT/liberfree-common-1.1-SNAPSHOT.jar!/cn/liberfree/common/AssertUtils.class">
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/OperatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="160">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/AppServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OrganizationClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="160">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/OperatorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/test/java/com/cloud/ccb/context/domain/service/MenuServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/AppClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="51" column="80" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="51" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/RoleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/AppRepository.java">
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/RoleDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+        <state relative-caret-position="300">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/configuration/exception/GlobalControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/RoleQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/AppQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/AttrQuery.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/RoleQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/LoginInfoQuery.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/OrganizationQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/OperatorQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/dto/MenuDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/resources/mybatis/sqlmap/ext/MenuQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/query/MenuQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-api/src/main/java/com/cloud/ccb/api/MenuClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-webapi/src/main/java/com/cloud/webapi/web/v1/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/repository/MenuRepostory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/model/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cloud-service-ccb/cloud-service-ccb-context/src/main/java/com/cloud/ccb/context/domain/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>

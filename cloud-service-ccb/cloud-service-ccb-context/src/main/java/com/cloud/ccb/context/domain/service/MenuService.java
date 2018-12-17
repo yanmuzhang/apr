@@ -1,5 +1,6 @@
 package com.cloud.ccb.context.domain.service;
 
+import cn.liberfree.common.PageResult;
 import com.cloud.ccb.api.dto.MenuDto;
 
 /**
@@ -13,5 +14,9 @@ public interface MenuService {
     void editMenu(MenuDto menuDto);
 
     MenuDto getMenu(String id);
+
+    PageResult<MenuDto> getPageList(String name,Boolean isLeaf,Integer pageIndex,Integer pageSize);
+
+    void delete(String id);
 
 }

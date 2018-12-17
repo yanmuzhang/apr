@@ -9,7 +9,7 @@
       and  organization_id = #{orgId}
     </if>
     <if test="name != null and name != ''">
-      and  `name` = #{name}
+      and  name = #{name}
     </if>
   </select>
 
