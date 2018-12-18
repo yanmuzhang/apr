@@ -18,13 +18,11 @@ public class WebMvcConfiguration extends WebMvcConfigurerAdapter {
 
     public static final String V1_PATH = "/" + Version.ID;
 
-    @Autowired(required = false)
+    @Autowired
     private AuthHandlerInterceptor authHandlerInterceptor;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-
-        if (authHandlerInterceptor == null) authHandlerInterceptor = new AuthHandlerInterceptor();
         authHandlerInterceptor.addAnonymousPaths(
                 V1_PATH + "/swagger-resources",
                 V1_PATH + "/swagger-resources/**",

@@ -33,12 +33,12 @@ public class EntityLoader extends BaseEntityLoader {
     public <T extends EntityObject> T load(Serializable id, Class<? extends EntityObject> clazz) {
         EntityObject entityObject = loadByWork(id, clazz);
         if(entityObject != null){
-            log.info("在工作空间中加载对象 id={}"+entityObject.getId());
+            log.info("get data for unwork id={}"+entityObject.getId());
             return (T)entityObject;
         }
         entityObject = (EntityObject)CacheManager.get(id);
         if(entityObject != null){
-            log.info("在缓存中加载对象 id={}"+entityObject.getId());
+            log.info("get data for cache id={}"+entityObject.getId());
             return (T)entityObject;
         }
 

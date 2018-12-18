@@ -17,6 +17,7 @@ import java.util.Enumeration;
 @Configuration
 public class FeignHeaderConfiguration {
 
+
     @Bean
     public RequestInterceptor headerInterceptor() {
         return new RequestInterceptor() {

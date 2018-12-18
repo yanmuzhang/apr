@@ -7,6 +7,8 @@ import com.cloud.ccb.context.domain.model.App;
 import com.cloud.ccb.context.domain.model.AppAttr;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashSet;
 import java.util.List;

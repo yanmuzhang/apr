@@ -1,5 +1,12 @@
 package com.cloud.webapi.context.auth;
 
+import com.cloud.webapi.context.jwt.AuthManager;
+import com.cloud.webapi.context.jwt.JwtContextUtils;
+import com.cloud.webapi.context.jwt.JwtUser;
+import com.cloud.webapi.context.jwt.NoLoginException;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.util.PathMatcher;
 import org.springframework.web.method.HandlerMethod;
@@ -15,8 +22,11 @@ import java.util.List;
 /**
  *
  */
+@Component
 public class AuthHandlerInterceptor implements HandlerInterceptor {
 
+    @Autowired
+    private JwtContextUtils jwtContextUtils;
 
 
     private List<String> anonymousPaths = new ArrayList<>();
@@ -46,49 +56,30 @@ public class AuthHandlerInterceptor implements HandlerInterceptor {
 
             if (!allowAnonymous(httpServletRequest)) {
                 //不允许匿名访问时检查注解情况
-
-//                HandlerMethod method = (HandlerMethod) handler;
-//                Anonymous mno = ((HandlerMethod) handler).getMethodAnnotation(Anonymous.class);
-//                Anonymous cno = method.getBean().getClass().getAnnotation(Anonymous.class);
-//
-//                if (mno != null) {
-//                    //方法上有注解，以方法上的注解值为准
-//                    if (!mno.value())
-//                    {
-//                        checkToken(token);
-//                    }
-//
-//                } else if (cno != null) {
-//                    //方法上没注解，以类上的注解值为准
-//                    if (!cno.value()) {
-//                        checkToken(token);
-//                    }
-//                } else {
-//                    //其它情况全部验证
-//                    checkToken(token);
-//
-//                }
+                HandlerMethod method = (HandlerMethod) handler;
+                Anonymous mno = method.getMethodAnnotation(Anonymous.class);
+                if(mno == null){
+                    mno = method.getBean().getClass().getAnnotation(Anonymous.class);
+                }
+                if (mno == null) {
+                    checkToken(token);
+                }
             }
         }
+        setUser(token);
         return true;
     }
-//
-//    private void checkToken(String token) {
-//        if (StringUtils.isEmpty(token)) throw new NoLoginException("token为空");
-//        TokenBuilder tokenBuilder = AuthManager.getTokenBuilder();
-//        JWTUserDto user = tokenBuilder.getAuthUserByToken(token);
-//        if (user == null) throw new NoLoginException("token无效" + token);
-//    }
-//
-//    private void setUser(String token) {
-//        TokenBuilder tokenBuilder = AuthManager.getTokenBuilder();
-//        JWTUserDto user = tokenBuilder.getAuthUserByToken(token);
-//        if(user!=null){
-//            AuthManager.setUser(user);
-//        }
-//    }
 
+    private void checkToken(String token) {
+        jwtContextUtils.verifyToken(token);
+    }
 
+    public void setUser(String token){
+        JwtUser parse = jwtContextUtils.parse(token);
+        if(parse !=  null){
+            AuthManager.setUser(parse);
+        }
+    }
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {

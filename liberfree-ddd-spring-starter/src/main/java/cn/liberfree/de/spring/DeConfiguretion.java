@@ -30,7 +30,7 @@ public class DeConfiguretion implements ApplicationContextAware {
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.context = applicationContext;
-        logger.info("加载ddd成功 。。。");
+        logger.info("load ddd success 。。。");
     }
 
     @PostConstruct

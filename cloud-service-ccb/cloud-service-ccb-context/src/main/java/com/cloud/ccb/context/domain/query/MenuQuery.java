@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Param;
 
 public interface MenuQuery {
 
-    Page<String> list(@Param("name") String name, @Param("isLeaf") Boolean isLeaf,PageParames pageParames);
+    Page<String> list(@Param("name") String name, @Param("leaf") Boolean leaf,PageParames pageParames);
 
 }

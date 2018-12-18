@@ -45,7 +45,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
-
         <!-- 使用数据源 -->
         <dependency>
             <groupId>com.zaxxer</groupId>

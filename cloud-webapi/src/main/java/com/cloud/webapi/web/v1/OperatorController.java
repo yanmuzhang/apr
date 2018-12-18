@@ -3,9 +3,15 @@ package com.cloud.webapi.web.v1;
 import cn.liberfree.common.PageResult;
 import com.cloud.ccb.api.OperatorClient;
 import com.cloud.ccb.api.dto.*;
+import com.cloud.webapi.context.auth.Anonymous;
+import com.cloud.webapi.context.jwt.AuthManager;
+import com.cloud.webapi.context.jwt.JwtUser;
+import com.cloud.webapi.context.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.Map;
 
 /**
  * @author: zhangchao
@@ -15,8 +21,10 @@ import javax.annotation.Resource;
 @RequestMapping("/operator")
 public class OperatorController {
 
-    @Resource
-    private OperatorClient userClient;
+
+
+    @Autowired
+    private UserService userService;
 
     /**
      * 添加用户
@@ -24,7 +32,7 @@ public class OperatorController {
      */
     @PostMapping(value = "/addOperator")
     public void addOperator(@RequestBody OperatorAddDto userAddDto){
-        userClient.addOperator(userAddDto);
+        userService.addOperator(userAddDto);
     }
 
     /**
@@ -33,7 +41,7 @@ public class OperatorController {
      */
     @PostMapping(value = "/updateOperator")
     public void updateOperator(@RequestBody OperatorEditDto userDto){
-        userClient.updateOperator(userDto);
+        userService.updateOperator(userDto);
     }
 
     /**
@@ -42,18 +50,18 @@ public class OperatorController {
      */
     @PostMapping(value = "/certificationOperator")
     public void certificationOperator(@RequestBody CertificationDto certificationDto){
-        userClient.certificationOperator(certificationDto);
+        userService.certificationOperator(certificationDto);
     }
 
 
     /**
      * 用户信息
-     * @param openId
      * @return
      */
     @GetMapping(value = "/getOperatorInfo")
-    public OperatorInfoDto getOperatorInfo(@RequestParam(name = "openId") String openId){
-       return  userClient.getOperatorInfo(openId);
+    public OperatorInfoDto getOperatorInfo(){
+        JwtUser jwtUser = AuthManager.currentUser();
+        return  userService.getOperatorInfo(jwtUser.getId());
     }
 
 
@@ -67,7 +75,7 @@ public class OperatorController {
     public PageResult<OperatorInfoDto> getOperatorList(
                                                 @RequestParam(name = "pageIndex",defaultValue = "1") int pageIndex,
                                                 @RequestParam(name = "pageSize",defaultValue = "10") int pageSize){
-        return userClient.getOperatorList(pageIndex,pageSize);
+        return userService.getOperatorList(pageIndex,pageSize);
     }
 
 
@@ -77,13 +85,15 @@ public class OperatorController {
      * @return
      */
     @PostMapping(value = "/login")
-    public OperatorInfoDto login(@RequestBody LoginDto loginDto){
-        return userClient.login(loginDto);
+    @Anonymous
+    public Map<String,Object> login(@RequestBody LoginDto loginDto){
+        return userService.login(loginDto);
     }
 
     /**
      * 退出登录
      */
+    @Anonymous
     @GetMapping(value = "/logout")
     public void logout(){
         System.out.println("logout");
@@ -96,7 +106,7 @@ public class OperatorController {
      */
     @GetMapping(value = "/checkedPhone")
     public Boolean checkedPhone(@RequestParam("phone") String phone){
-        return userClient.checkedPhone(phone);
+        return userService.checkedPhone(phone);
     }
 
 

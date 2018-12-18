@@ -38,7 +38,7 @@ public class EntityObjectUtils {
             declaredField.setAccessible(true);
             declaredField.set(entityObject, value);
         } catch (Exception var5) {
-            log.warn("设置属性失败", var5);
+            log.warn("set attr failed", var5);
         }
 
     }

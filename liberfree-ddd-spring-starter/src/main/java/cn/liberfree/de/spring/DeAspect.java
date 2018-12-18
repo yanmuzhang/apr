@@ -22,8 +22,6 @@ public class DeAspect {
     @Autowired
     private TransactionalCommit transactionalCommit;
 
-    public static Logger logger = LoggerFactory.getLogger(DeAspect.class);
-
     @Around("execution(public * *(..)) && @within(org.springframework.stereotype.Service)")
     public Object aroundMethod(ProceedingJoinPoint joinPoint) {
         Object result = null;

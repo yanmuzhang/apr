@@ -5,7 +5,9 @@ import com.cloud.ccb.api.OperatorClient;
 import com.cloud.ccb.api.dto.*;
 import com.cloud.ccb.context.domain.service.OperatorService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: zhangchao
@@ -16,43 +18,43 @@ public class OperatorController extends BaseController implements OperatorClient
 
 
     @Autowired
-    private OperatorService userService;
+    private OperatorService operatorService;
 
     @Override
     public void addOperator(@RequestBody OperatorAddDto userAddDto) {
-        userService.addOperator(userAddDto);
+        operatorService.addOperator(userAddDto);
     }
 
     @Override
     public void updateOperator(@RequestBody OperatorEditDto userDto) {
-        userService.updateOperator(userDto);
+        operatorService.updateOperator(userDto);
     }
 
     @Override
     public void certificationOperator(@RequestBody  CertificationDto certificationDto) {
-        userService.certificationOperator(certificationDto);
+        operatorService.certificationOperator(certificationDto);
     }
 
     @Override
     public OperatorInfoDto getOperatorInfo(@RequestParam("openId") String openId) {
-        return userService.getOperatorInfo(openId);
+        return operatorService.getOperatorInfo(openId);
     }
 
     @Override
     public PageResult<OperatorInfoDto> getOperatorList(
                                                        @RequestParam(name = "pageIndex",defaultValue = "1") int pageIndex,
                                                        @RequestParam(name = "pageSize",defaultValue = "10") int pageSize) {
-        return userService.getOperatorList(pageIndex,pageSize);
+        return operatorService.getOperatorList(pageIndex,pageSize);
     }
 
     @Override
     public OperatorInfoDto login(@RequestBody LoginDto loginDto) {
         loginDto.setAppId(getAppId());
-        return userService.login(loginDto);
+        return operatorService.login(loginDto);
     }
 
     @Override
     public Boolean checkedPhone(@RequestParam("phone") String phone) {
-        return userService.checkedPhone(phone);
+        return operatorService.checkedPhone(phone);
     }
 }

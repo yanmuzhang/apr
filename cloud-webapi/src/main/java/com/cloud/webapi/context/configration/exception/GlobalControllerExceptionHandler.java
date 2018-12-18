@@ -2,9 +2,8 @@ package com.cloud.webapi.context.configration.exception;
 
 import cn.liberfree.common.ApiErrorResponse;
 import cn.liberfree.common.exception.BusinessException;
+import com.cloud.webapi.context.jwt.NoLoginException;
 import feign.FeignException;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.CollectionUtils;
@@ -19,8 +18,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -49,7 +46,7 @@ public class GlobalControllerExceptionHandler {
 
     @ExceptionHandler(value = {FeignException.class})
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public ApiErrorResponse constraintFeignException(Exception ex) {
+    public ApiErrorResponse constraintFeignException(FeignException ex) {
         log.error("Feign exception", ex);
         return new ApiErrorResponse("500", ex.getClass().getName(),ex.getMessage(), ex);
     }
@@ -94,12 +91,19 @@ public class GlobalControllerExceptionHandler {
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public ApiErrorResponse handleMethodArgumentNotValidException(
-            MethodArgumentNotValidException ex) {
+    public ApiErrorResponse handleMethodArgumentNotValidException(  MethodArgumentNotValidException ex) {
         BindingResult bindingResult = ex.getBindingResult();
         FieldError fieldError = bindingResult.getFieldError();
         String errorMessage = fieldError.getDefaultMessage();
         return new ApiErrorResponse("500", ex.getClass().getSimpleName(),errorMessage, ex);
     }
+
+
+    @ExceptionHandler(NoLoginException.class)
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    public ApiErrorResponse handleNoLoginException( NoLoginException ex) {
+        return new ApiErrorResponse("401", ex.getClass().getSimpleName(),ex.getMessage(), ex);
+    }
+
 
 }

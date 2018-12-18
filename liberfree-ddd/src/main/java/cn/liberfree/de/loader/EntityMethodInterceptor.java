@@ -17,9 +17,10 @@ import java.util.Arrays;
  * @time: 2018-08-01 11:08
  **/
 public class EntityMethodInterceptor implements MethodInterceptor,Serializable {
+
     private static final long serialVersionUID = -2512752626056722876L;
     private static final String METHOD_ADD_TO_UNITOFWORK = "addToUnitOfWork";
-    private static final String[] withoutMethod = new String[]{"hashCode", "equals", "toString", "notify", "notifyAll", "wait"};
+    private static final String[] withoutMethod = new String[]{"hashCode", "equals", "toString", "notify", "notifyAll", "wait","delete"};
     private static final Logger logger = LoggerFactory.getLogger(EntityMethodInterceptor.class);
 
 
@@ -32,7 +33,7 @@ public class EntityMethodInterceptor implements MethodInterceptor,Serializable {
                 Method method1 = EntityObject.class.getDeclaredMethod(METHOD_ADD_TO_UNITOFWORK);
                 method1.setAccessible(true);
                 method1.invoke(o);
-                this.logger.info("实体{}发生更改，调用方法{}" ,o.getClass().getName(),method.getName());
+                this.logger.info("entity{}update,invoke{}" ,o.getClass().getName(),method.getName());
             }
         }
         return obj;
