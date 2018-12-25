@@ -34,7 +34,7 @@ public class ActiveMqEventPublish extends EventPublish {
             session.close();
             connection.close();
         } catch (Exception e) {
-            log.error("发送ActiveMQ消息失败!{}:{}",getEventName(),jsonString);
+            log.error("failure to send ActiveMQ message!{}:{}",getEventName(),jsonString);
             e.printStackTrace();
         }
     }

@@ -13,7 +13,14 @@ import java.util.Set;
  * @author: zhangchao
  * @time: 2018-12-21 10:57
  **/
-public abstract class ChannelProvider {
+public abstract class ChannelProvider<T extends ChannelConfig> {
+
+
+    private T channelConfig;
+
+    public ChannelProvider(T channelConfig) {
+        this.channelConfig = channelConfig;
+    }
 
     public Set<EventSubscriber> subscriberSet = new HashSet<>();
 
@@ -44,5 +51,11 @@ public abstract class ChannelProvider {
     public abstract EventPublish createEventPublish();
 
 
+    public T getChannelConfig() {
+        return channelConfig;
+    }
 
+    public void setChannelConfig(T channelConfig) {
+        this.channelConfig = channelConfig;
+    }
 }

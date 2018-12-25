@@ -9,10 +9,19 @@ import org.slf4j.LoggerFactory;
  * @author: zhangchao
  * @time: 2018-12-21 11:26
  **/
-public class DefaultChannelProvider extends ChannelProvider {
+public class DefaultChannelProvider extends ChannelProvider<DefaultChannelConfig> {
     private final static Logger log = LoggerFactory.getLogger(DefaultChannelProvider.class);
 
-    DefaultEventSource defaultEventSource = new DefaultEventSource();
+    private DefaultEventSource defaultEventSource = new DefaultEventSource();
+
+    public DefaultChannelProvider() {
+        this(null);
+    }
+
+    public DefaultChannelProvider(DefaultChannelConfig channelConfig) {
+        super(channelConfig);
+    }
+
 
     @Override
     public void init() {

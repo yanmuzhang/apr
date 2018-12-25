@@ -1,9 +1,5 @@
 package com.liberfree.eventbus.activemq;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.TypeReference;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.liberfree.eventbus.event.EventHandler;
 import com.liberfree.eventbus.event.EventSubscriber;
 import com.liberfree.eventbus.message.MessageData;
@@ -12,8 +8,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.jms.*;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
 
 /**
  * @author: zhangchao
@@ -51,7 +45,7 @@ public class ActiveMqEventSubscriber extends EventSubscriber  {
                     queue = session.createQueue(getEventHandler().getEventName());
                     // 创建消息制作者
                     consumer = session.createConsumer(queue);
-                    log.info("Class:{},事件:{},开启订阅 .",getEventHandler().getClass().getName(),getEventHandler().getEventName());
+                    log.info("Class:{},eventName:{},enable subscriber .",getEventHandler().getClass().getName(),getEventHandler().getEventName());
                     while (running){
                         try {
                             TextMessage textMessage = (TextMessage)consumer.receive(200 );
@@ -59,13 +53,13 @@ public class ActiveMqEventSubscriber extends EventSubscriber  {
                                 String text = textMessage.getText();
                                 EventHandler eventHandler = getEventHandler();
                                 MessageData messageData = (MessageData)toObject(text, MessageData.class);
-                                Class<?> eventDataObjectClass = getEventDataObjectClass();
-                                Object data = toObject(String.valueOf(messageData.getData()), eventDataObjectClass);
+                                Object data = toObject(String.valueOf(messageData.getData()), getEventDataObjectClass());
                                 eventHandler.handler(data);
+                                //上报已读
                                 textMessage.acknowledge();
                             }
                         } catch (Exception e) {
-                            log.error("无法解析的消息 .");
+                            log.error("error to parse message.");
                             e.printStackTrace();
                             session.recover();
                         }
@@ -100,16 +94,7 @@ public class ActiveMqEventSubscriber extends EventSubscriber  {
         }).start();
     }
 
-    public Class<?> getEventDataObjectClass(){
-        EventHandler eventHandler = getEventHandler();
-        Type type = eventHandler.getClass().getGenericInterfaces()[0];
-        if(type instanceof ParameterizedType){
-            Type[] actualTypeArguments = ((ParameterizedType) type).getActualTypeArguments();
-            Type actualTypeArgument = actualTypeArguments[0];
-            return (Class<?>)actualTypeArgument;
-        }
-        return null;
-    }
+
 
     public void stop() {
         this.running = false;

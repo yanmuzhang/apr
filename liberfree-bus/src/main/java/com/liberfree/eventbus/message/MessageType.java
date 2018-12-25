@@ -6,7 +6,7 @@ package com.liberfree.eventbus.message;
  */
 public enum MessageType {
 
-    QUEUE,
-    TOPIC
+    P2P,//点对点
+    PUBLISH_SUBSCRIBER//发布订阅
 
 }
