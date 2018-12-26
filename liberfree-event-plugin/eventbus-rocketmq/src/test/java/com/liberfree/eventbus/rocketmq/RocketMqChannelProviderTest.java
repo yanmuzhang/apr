@@ -1,27 +1,25 @@
-package com.liberfree.eventbus.activemq;
+package com.liberfree.eventbus.rocketmq;
 
 import com.liberfree.eventbus.EventBus;
 import com.liberfree.eventbus.channel.ChannelProvider;
 import com.liberfree.eventbus.config.EventConfigItem;
 import com.liberfree.eventbus.config.EventConfigManager;
 import com.liberfree.eventbus.event.EventHandler;
-import org.apache.activemq.ActiveMQConnection;
 
 import java.util.Properties;
 import java.util.Scanner;
 
-public class ActiveMqChannelProviderTest {
+public class RocketMqChannelProviderTest {
+
 
     public static void main(String[] args) {
 
         Properties properties = new Properties();
-        properties.setProperty("url",ActiveMQConnection.DEFAULT_BROKER_URL);
-//        properties.setProperty("username",ActiveMQConnection.DEFAULT_USER);
-//        properties.setProperty("password", ActiveMQConnection.DEFAULT_PASSWORD);
-        ActiveMqChannelConfig config = new ActiveMqChannelConfig(properties);
+        properties.setProperty("host","localhost:9876");
+        RocketMqChannelConfig config = new RocketMqChannelConfig(properties);
 
+        ChannelProvider channelProvider = new RocketMqChannelProvider(config);
 
-        ChannelProvider channelProvider = new ActiveMqChannelProvider(config);
 
         EventConfigItem a = new EventConfigItem();
         a.setChannelProvider(channelProvider);
@@ -36,8 +34,6 @@ public class ActiveMqChannelProviderTest {
         channelProvider.init();
 
         EventBus.register(new  A());
-        EventBus.register(new  A());
-        EventBus.register(new  B());
         EventBus.register(new  B());
 
         String eventName = "";
@@ -68,7 +64,7 @@ class A implements EventHandler<String> {
 
 
 
-class B implements EventHandler<String> {
+class B implements EventHandler<String>{
     public static String EVENT_NAME = "BB";
     public void handler(String s) {
         System.out.println(EVENT_NAME+"收到消息:"+s);

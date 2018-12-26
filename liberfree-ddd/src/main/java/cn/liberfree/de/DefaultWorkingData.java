@@ -83,9 +83,8 @@ public class DefaultWorkingData implements WorkingData {
         try {
             entityCommit();
         } catch (Exception e) {
-            this.getEntityMap().clear();
             throw new SystemExecption("提交仓储失败 ",e);
-        }finally {
+        } finally {
             this.getEntityMap().clear();
         }
     }
