@@ -5,6 +5,8 @@ import com.google.gson.GsonBuilder;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class EventSubscriber {
 
@@ -21,11 +23,6 @@ public abstract class EventSubscriber {
     public abstract void start();
 
     public abstract void stop();
-
-    protected   Object toObject(String content,Class c){
-        Gson gson = new GsonBuilder().disableHtmlEscaping().setDateFormat("yyyy-MM-dd HH:mm:ss").serializeNulls().create();
-        return  gson.fromJson(content, c);
-    }
 
     public Class<?> getEventDataObjectClass(){
         EventHandler eventHandler = getEventHandler();

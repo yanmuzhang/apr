@@ -5,6 +5,7 @@ import com.liberfree.eventbus.channel.ChannelProvider;
 import com.liberfree.eventbus.config.EventConfigItem;
 import com.liberfree.eventbus.config.EventConfigManager;
 import com.liberfree.eventbus.event.EventHandler;
+import com.liberfree.eventbus.event.EventHandlerData;
 
 /**
  * @author: zhangchao

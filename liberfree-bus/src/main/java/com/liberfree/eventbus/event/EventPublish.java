@@ -43,8 +43,4 @@ public abstract class EventPublish {
 
     public abstract void publishMessage();
 
-    protected String toJsonString(Object object) {
-        Gson gson = new GsonBuilder().disableHtmlEscaping().setDateFormat("yyyy-MM-dd HH:mm:ss").serializeNulls().create();
-        return gson.toJson(object);
-    }
 }

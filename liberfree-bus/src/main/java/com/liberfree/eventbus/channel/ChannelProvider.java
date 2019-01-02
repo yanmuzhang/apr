@@ -1,6 +1,7 @@
 package com.liberfree.eventbus.channel;
 
 import com.liberfree.eventbus.event.EventHandler;
+import com.liberfree.eventbus.event.EventHandlerData;
 import com.liberfree.eventbus.event.EventPublish;
 import com.liberfree.eventbus.event.EventSubscriber;
 import com.liberfree.eventbus.message.MessageData;

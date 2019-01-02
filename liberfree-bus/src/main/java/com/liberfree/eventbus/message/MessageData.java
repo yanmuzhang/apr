@@ -1,5 +1,7 @@
 package com.liberfree.eventbus.message;
 
+import com.liberfree.eventbus.event.EventHandlerData;
+
 import java.util.UUID;
 
 /**

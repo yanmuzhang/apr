@@ -6,6 +6,7 @@ import com.liberfree.eventbus.channel.def.DefaultChannelProvider;
 import com.liberfree.eventbus.config.EventConfigItem;
 import com.liberfree.eventbus.config.EventConfigManager;
 import com.liberfree.eventbus.event.EventHandler;
+import com.liberfree.eventbus.event.EventHandlerData;
 import com.liberfree.eventbus.event.EventPublish;
 
 import java.lang.reflect.ParameterizedType;
@@ -25,13 +26,6 @@ public class TestBus {
 
     public static void main(String[] args)  throws Exception{
 
-
-
-
-
-
-
-
         ChannelProvider channelProvider = new DefaultChannelProvider();
         channelProvider.init();
 //
@@ -46,39 +40,53 @@ public class TestBus {
 //        EventConfigManager.addEventSubcriberConfigItem(b);
 
 
-        EventBus.register(new EventHandler() {
-            @Override
-            public void handler(Object o) {
-                System.out.println("收到A事件："+JSON.toJSONString(o));
-            }
-
-            @Override
-            public String getEventName() {
-                return "A";
-            }
-        });
-
-        EventBus.register(new EventHandler() {
-            @Override
-            public void handler(Object o) {
-                System.out.println("收到B事件："+JSON.toJSONString(o));
-            }
-
-            @Override
-            public String getEventName() {
-                return "B";
-            }
-        });
+        EventBus.register(new  A());
+        EventBus.register(new  B());
 
         String eventName = "";
 
         Scanner scanner  = new Scanner(System.in);
         while (!(eventName = scanner.next()).equals("exit")){
             String[] split = eventName.split(":");
-            EventBus.publish(split[0],split[1]);
+            EventBus.publish(split[0],new StringData(split[1]));
         }
 
     }
 
 
+}
+
+
+
+class A implements EventHandler<StringData> {
+    public static String EVENT_NAME = "AA";
+    public void handler(StringData s) {
+        System.out.println(A.EVENT_NAME+"收到消息:"+s);
+    }
+
+    public String getEventName() {
+        return A.EVENT_NAME;
+    }
+}
+
+
+
+
+class B implements EventHandler<StringData>{
+    public static String EVENT_NAME = "BB";
+    public void handler(StringData s) {
+        System.out.println(B.EVENT_NAME+"收到消息:"+s);
+    }
+
+    public String getEventName() {
+        return B.EVENT_NAME;
+    }
+}
+
+class StringData implements EventHandlerData {
+    private String value;
+
+    public StringData(String value) {
+        this.value = value;
+    }
 }
