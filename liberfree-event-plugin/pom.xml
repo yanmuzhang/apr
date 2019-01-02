@@ -11,6 +11,7 @@
         <module>eventbus-activemq</module>
         <module>eventbus-redis</module>
         <module>eventbus-rocketmq</module>
+        <module>eventbus-kafka</module>
     </modules>
     <packaging>pom</packaging>
 
