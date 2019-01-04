@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>eventbus-rocketmq</artifactId>
-
+    <version>${parent.version}</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
