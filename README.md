@@ -1,1 +1,1 @@
-##  snail
+##  Apr Domain-Driven Design Java Framework
