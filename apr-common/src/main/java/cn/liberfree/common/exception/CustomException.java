@@ -20,6 +20,7 @@ public abstract class CustomException extends RuntimeException {
         return this.errorCode;
     }
 
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder(this.getMessage() + "\r\n");
         stringBuilder.append("errorCode:" + this.errorCode + "\r\n");

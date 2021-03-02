@@ -21,6 +21,7 @@ public class ActiveMqChannelProvider extends ChannelProvider<ActiveMqChannelConf
         super(channelConfig);
     }
 
+    @Override
     public void init() {
         try {
             ActiveMqChannelConfig config = getChannelConfig();
